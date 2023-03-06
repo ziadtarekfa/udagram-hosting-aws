@@ -12,7 +12,7 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "deploy": "npm run build && eb list && eb use udagram-api-env && eb deploy",
-    "build": "npm install . && tsc && cp .npmrc www /y && cp package.json www /y",
+    "build": "npm install . && tsc && cp .npmrc www && cp package.json www",
     "try": "copy \".elasticbeanstalk\\config.yml\" \"www\\.elasticbeanstalk\\ \" /y /i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
