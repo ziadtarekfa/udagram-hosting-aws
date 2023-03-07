@@ -9,6 +9,23 @@ I then registered for a free account on CircleCi and connected it to Github. Bas
 
 The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
+### Environment Variables
+```
+POSTGRES_USERNAME= "postgres"
+POSTGRES_PASSWORD = "hello123"
+POSTGRES_HOST = "database-1.cofbb4ezgnfb.us-east-1.rds.amazonaws.com"
+POSTGRES_DB = "postgres"
+AWS_BUCKET = "arn:aws:s3:::ziadbucket20191702029"
+AWS_REGION = "us-east-1"
+AWS_PROFILE = "default"
+JWT_SECRET = "ziadsecretstring"
+URL = "http://database-1.cofbb4ezgnfb.us-east-1.rds.amazonaws.com/"
+AWS_ACCESS_KEY_ID = "AKIA5INCGBBEWGNE3KF7"
+AWS_SECRET_ACCESS_KEY = "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"
+PORT = 8080
+DB_PORT=5432
+RDS_DIALECT = "postgres"
+```
 
 ### Dependencies
 
@@ -29,4 +46,4 @@ The project will also include writing documentation and runbooks covering the op
 http://ziadbucket20191702029.s3-website-us-east-1.amazonaws.com
 ```
 ### Screenshot of the working application
-![ScreenShot](./screenshots/frontend.PNG);
+![ScreenShot](./screenshots/frontend.PNG)
