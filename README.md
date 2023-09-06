@@ -1,4 +1,4 @@
-# Hosting a Full-Stack Application
+# Hosting a Full-Stack Application using AWS
 
 
 In this project a newly developed Full-Stack application was built for a retailer and deployed it to a cloud service provider so that it is available to customers. I used the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. 
